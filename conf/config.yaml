@@ -1,0 +1,10 @@
+test_file_path: test_data/qa.json
+chromedb_dir: chromadb
+corpus_dir: corpus/edge_ai
+rag_embedding_model_name: thenlper/gte-large
+split_by: sentence
+split_length: 2
+hf_gen_model: "HuggingFaceH4/zephyr-7b-beta"
+bnb_quantize: True
+log_dir: "logs"
+indexing: False
